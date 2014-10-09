@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B71812BB196426DA008B94CF /* DMBaseLutGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = B71812BA196426DA008B94CF /* DMBaseLutGenerator.m */; };
+		B76E51D3192A7DD6007EF8E7 /* DMHistogramGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = B76E51D2192A7DD6007EF8E7 /* DMHistogramGenerator.m */; };
 		B7AB37E01900546100F1C119 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7AB37DF1900546100F1C119 /* Cocoa.framework */; };
 		B7AB37EA1900546100F1C119 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B7AB37E81900546100F1C119 /* InfoPlist.strings */; };
 		B7AB37EC1900546100F1C119 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B7AB37EB1900546100F1C119 /* main.m */; };
@@ -18,6 +20,13 @@
 		B7AB38001900546100F1C119 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7AB37DF1900546100F1C119 /* Cocoa.framework */; };
 		B7AB38081900546100F1C119 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B7AB38061900546100F1C119 /* InfoPlist.strings */; };
 		B7AB380A1900546100F1C119 /* PLCDL_LUTGENTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B7AB38091900546100F1C119 /* PLCDL_LUTGENTests.m */; };
+		B7AB381619005F9600F1C119 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7AB381519005F9600F1C119 /* CoreGraphics.framework */; };
+		B7AB38171900612D00F1C119 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7AB37E41900546100F1C119 /* Foundation.framework */; };
+		B7AB381919006C5600F1C119 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7AB381819006C5600F1C119 /* QuartzCore.framework */; };
+		B7AB381F1900761900F1C119 /* DMCalcFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = B7AB381E1900761900F1C119 /* DMCalcFilter.m */; };
+		B7D12445197D0F0700A7AC0B /* cube.0017.tif in Resources */ = {isa = PBXBuildFile; fileRef = B7D12444197D0F0700A7AC0B /* cube.0017.tif */; };
+		B7D12447197D0F2300A7AC0B /* marci512_Cineon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B7D12446197D0F2300A7AC0B /* marci512_Cineon.jpg */; };
+		B7D5B3BF1949D05B0035E298 /* DMGenerateLutFromCube.m in Sources */ = {isa = PBXBuildFile; fileRef = B7D5B3BE1949D05B0035E298 /* DMGenerateLutFromCube.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,6 +40,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B71812B9196426DA008B94CF /* DMBaseLutGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMBaseLutGenerator.h; sourceTree = "<group>"; };
+		B71812BA196426DA008B94CF /* DMBaseLutGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMBaseLutGenerator.m; sourceTree = "<group>"; };
+		B76E51D1192A7DD6007EF8E7 /* DMHistogramGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DMHistogramGenerator.h; path = ../DMHistogramGenerator.h; sourceTree = "<group>"; };
+		B76E51D2192A7DD6007EF8E7 /* DMHistogramGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DMHistogramGenerator.m; path = ../DMHistogramGenerator.m; sourceTree = "<group>"; };
 		B7AB37DC1900546100F1C119 /* PLCDL_LUTGEN.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PLCDL_LUTGEN.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7AB37DF1900546100F1C119 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		B7AB37E21900546100F1C119 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -50,6 +63,14 @@
 		B7AB38051900546100F1C119 /* PLCDL_LUTGENTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PLCDL_LUTGENTests-Info.plist"; sourceTree = "<group>"; };
 		B7AB38071900546100F1C119 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		B7AB38091900546100F1C119 /* PLCDL_LUTGENTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PLCDL_LUTGENTests.m; sourceTree = "<group>"; };
+		B7AB381519005F9600F1C119 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B7AB381819006C5600F1C119 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		B7AB381D1900761900F1C119 /* DMCalcFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMCalcFilter.h; sourceTree = "<group>"; };
+		B7AB381E1900761900F1C119 /* DMCalcFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMCalcFilter.m; sourceTree = "<group>"; };
+		B7D12444197D0F0700A7AC0B /* cube.0017.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = cube.0017.tif; sourceTree = "<group>"; };
+		B7D12446197D0F2300A7AC0B /* marci512_Cineon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = marci512_Cineon.jpg; sourceTree = "<group>"; };
+		B7D5B3BD1949D05B0035E298 /* DMGenerateLutFromCube.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMGenerateLutFromCube.h; sourceTree = "<group>"; };
+		B7D5B3BE1949D05B0035E298 /* DMGenerateLutFromCube.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMGenerateLutFromCube.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +78,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B7AB381919006C5600F1C119 /* QuartzCore.framework in Frameworks */,
+				B7AB38171900612D00F1C119 /* Foundation.framework in Frameworks */,
+				B7AB381619005F9600F1C119 /* CoreGraphics.framework in Frameworks */,
 				B7AB37E01900546100F1C119 /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -95,6 +119,8 @@
 		B7AB37DE1900546100F1C119 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				B7AB381819006C5600F1C119 /* QuartzCore.framework */,
+				B7AB381519005F9600F1C119 /* CoreGraphics.framework */,
 				B7AB37DF1900546100F1C119 /* Cocoa.framework */,
 				B7AB37FE1900546100F1C119 /* XCTest.framework */,
 				B7AB37E11900546100F1C119 /* Other Frameworks */,
@@ -115,8 +141,16 @@
 		B7AB37E51900546100F1C119 /* PLCDL_LUTGEN */ = {
 			isa = PBXGroup;
 			children = (
+				B7D5B3BD1949D05B0035E298 /* DMGenerateLutFromCube.h */,
+				B7D5B3BE1949D05B0035E298 /* DMGenerateLutFromCube.m */,
+				B76E51D1192A7DD6007EF8E7 /* DMHistogramGenerator.h */,
+				B76E51D2192A7DD6007EF8E7 /* DMHistogramGenerator.m */,
 				B7AB37F11900546100F1C119 /* DMAppDelegate.h */,
 				B7AB37F21900546100F1C119 /* DMAppDelegate.m */,
+				B71812B9196426DA008B94CF /* DMBaseLutGenerator.h */,
+				B71812BA196426DA008B94CF /* DMBaseLutGenerator.m */,
+				B7AB381D1900761900F1C119 /* DMCalcFilter.h */,
+				B7AB381E1900761900F1C119 /* DMCalcFilter.m */,
 				B7AB37F41900546100F1C119 /* MainMenu.xib */,
 				B7AB37F71900546100F1C119 /* Images.xcassets */,
 				B7AB37E61900546100F1C119 /* Supporting Files */,
@@ -127,6 +161,8 @@
 		B7AB37E61900546100F1C119 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				B7D12446197D0F2300A7AC0B /* marci512_Cineon.jpg */,
+				B7D12444197D0F0700A7AC0B /* cube.0017.tif */,
 				B7AB37E71900546100F1C119 /* PLCDL_LUTGEN-Info.plist */,
 				B7AB37E81900546100F1C119 /* InfoPlist.strings */,
 				B7AB37EB1900546100F1C119 /* main.m */,
@@ -199,7 +235,7 @@
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = DM;
-				LastUpgradeCheck = 0510;
+				LastUpgradeCheck = 0600;
 				ORGANIZATIONNAME = "Dario Marzeglia";
 				TargetAttributes = {
 					B7AB37FC1900546100F1C119 = {
@@ -231,6 +267,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B7D12445197D0F0700A7AC0B /* cube.0017.tif in Resources */,
+				B7D12447197D0F2300A7AC0B /* marci512_Cineon.jpg in Resources */,
 				B7AB37EA1900546100F1C119 /* InfoPlist.strings in Resources */,
 				B7AB37F81900546100F1C119 /* Images.xcassets in Resources */,
 				B7AB37F01900546100F1C119 /* Credits.rtf in Resources */,
@@ -254,7 +292,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				B7AB37EC1900546100F1C119 /* main.m in Sources */,
+				B7AB381F1900761900F1C119 /* DMCalcFilter.m in Sources */,
 				B7AB37F31900546100F1C119 /* DMAppDelegate.m in Sources */,
+				B7D5B3BF1949D05B0035E298 /* DMGenerateLutFromCube.m in Sources */,
+				B76E51D3192A7DD6007EF8E7 /* DMHistogramGenerator.m in Sources */,
+				B71812BB196426DA008B94CF /* DMBaseLutGenerator.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -332,7 +374,7 @@
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
-				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_OPTIMIZATION_LEVEL = 3;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -371,6 +413,7 @@
 				ENABLE_NS_ASSERTIONS = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 3;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
@@ -387,10 +430,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
+				GCC_OPTIMIZATION_LEVEL = fast;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "PLCDL_LUTGEN/PLCDL_LUTGEN-Prefix.pch";
 				INFOPLIST_FILE = "PLCDL_LUTGEN/PLCDL_LUTGEN-Info.plist";
+				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -400,10 +446,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
+				GCC_OPTIMIZATION_LEVEL = fast;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "PLCDL_LUTGEN/PLCDL_LUTGEN-Prefix.pch";
 				INFOPLIST_FILE = "PLCDL_LUTGEN/PLCDL_LUTGEN-Info.plist";
+				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -467,6 +516,7 @@
 				B7AB380F1900546100F1C119 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B7AB38101900546100F1C119 /* Build configuration list for PBXNativeTarget "PLCDL_LUTGENTests" */ = {
 			isa = XCConfigurationList;
@@ -475,6 +525,7 @@
 				B7AB38121900546100F1C119 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
